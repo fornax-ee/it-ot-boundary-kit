@@ -53,3 +53,5 @@ Documentation: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Script
 
 
 Drafted with AI assistance, based on hands-on experience
+
+More notes and contact: [fornax.ee](https://www.fornax.ee) · Have a similar problem? Write to info@fornax.ee — happy to help.
