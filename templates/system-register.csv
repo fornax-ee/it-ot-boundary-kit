@@ -1,0 +1,7 @@
+name,type,location,owner,custodian,data_owner,criticality,ai_system,backup,status,notes
+prod-db-01,VM (PostgreSQL),Plant A server room,OT,OT,Plant A,critical,no,daily + nightly dump,production,Order mirror + production data
+mes-app-01,VM (containers),Plant A server room,OT,OT,Plant A,critical,no,daily,production,Shop-floor web app
+llm-01,VM (GPU passthrough),Plant A server room,OT,OT,Plant A,high,yes,weekly (config only),production,Model list in AI register
+pve-host-01,Hypervisor host,Plant A server room,see transition plan,see transition plan,-,critical,no,config to git,production,
+line-pc-cnc-03,Line PC,Plant A line 3,Plant A,OT,Plant A,high,no,disk image,production,Vendor-locked OS; exception recorded
+it-test-01,VM,Plant A server room,IT,IT,-,low,no,none,test,IT test VM; resources agreed with OT
